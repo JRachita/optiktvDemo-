@@ -4,7 +4,6 @@ import env.DriverConfiguration;
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
-import io.cucumber.java.eo.Do;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import screenobject.guestMode;
