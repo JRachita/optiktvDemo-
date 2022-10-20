@@ -1,0 +1,77 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-20T05:08:03.466Z",
+        "line": 13,
+        "name": "User launch the app as guest view mode and finds  method that supports different rating",
+        "description": "",
+        "id": "user-is-able-to-find-18a-rating-movie-from-ondemand-list-by-visiting-guest-mode;user-launch-the-app-as-guest-view-mode-and-finds--method-that-supports-different-rating",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10000000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user launch the app and enter as guest mode",
+            "match": {
+              "location": "stepdefinition.guestMode.userLaunchTheAppAndEnterAsGuestMode()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10042000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click on the OnDemand tab",
+            "match": {
+              "location": "stepdefinition.onDemand.userClickOnTheOnDemandTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9119000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user scrolls to look for a movie with rating",
+            "match": {
+              "location": "stepdefinition.movieDetailScreen.userScrollsToLookForAMovieWithRating()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1541000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user get the requested rating",
+            "match": {
+              "location": "stepdefinition.movieDetailScreen.userGetTheRequestedRating()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo"
+          }
+        ]
+      }
+    ],
+    "name": "User is able to find 18A rating movie from OnDemand list by visiting guest mode",
+    "description": "",
+    "id": "user-is-able-to-find-18a-rating-movie-from-ondemand-list-by-visiting-guest-mode",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/guestmode.feature",
+    "tags": []
+  }
+]
